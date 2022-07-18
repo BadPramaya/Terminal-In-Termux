@@ -19,10 +19,10 @@ echo -e "
     |T|e|r|m|i|n|a|l| |I|n| |T|e|r|m|u|x|
     +-+-+-+-+-+-+-+-+ +-+-+ +-+-+-+-+-+-+
             +-+-+ +-+-+ +-+-+-+-+
-            |b|y| |M|R| |J|I|N|N|
+            |b|y| |M|R| P|R|A|M|A|Y|A|
             +-+-+ +-+-+ +-+-+-+-+
  
-${Green}[ ${Yellow}@MrJinnTelegram${clear} ${Green}]${clear}
+${Green}[ ${Yellow}@MrBadPramayaTelegram${clear} ${Green}]${clear}
 "
 
 echo "Please wait..."
@@ -31,11 +31,11 @@ pkg;apt upgrade
 cd $HOME
 cd .termux
 cp colors.properties ../;rm colors.properties
-wget https://raw.githubusercontent.com/alvinbaby/Terminal-In-Termux/main/alvinbaby/colors.properties
+wget https://raw.githubusercontent.com/BadPramaya/Terminal-In-Termux/main/BadPramaya/colors.properties
 cd $HOME
 cd ..
 cd usr
 cd etc
 cp bash.bashrc ../;rm bash.bashrc
-wget https://raw.githubusercontent.com/alvinbaby/Terminal-In-Termux/main/alvinbaby/bash.bashrc
+wget https://raw.githubusercontent.com/BadPramaya/Terminal-In-Termux/main/BadPramaya/bash.bashrc
 cd ..;cd usr/etc;rm -rf motd;rm -rf motd-playstore
