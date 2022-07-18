@@ -7,7 +7,7 @@ Change termux terminal look like Kali LInux or better. No external git required,
 
 ```
 pkg upgrade -y
-wget https://raw.githubusercontent.com/alvinbaby/Terminal-In-Termux/main/Terminal.sh
+wget https://raw.githubusercontent.com/BadPramaya/Terminal-In-Termux/main/Terminal.sh
 bash Terminal.sh
 ```
 
@@ -17,7 +17,7 @@ Use the commands
 <pre> cd .termux</pre>
 # note: color7 is the text color for termux input
 <pre> cp colors.properties ../;rm colors.properties</pre>
-<pre> wget https://raw.githubusercontent.com/alvinbaby/Terminal-In-Termux/main/alvinbaby/colors.properties </pre>
+<pre> wget https://raw.githubusercontent.com/BadPramaya/Terminal-In-Termux/main/BadPramaya/colors.properties </pre>
 
 Hopw to change termux terminal should look like Kali Linux Terminal?
 Paste the command in the location <b>/data/data/com.termux/files/usr/etc/bash.bashrc</b> the commands... Where to paste? for that you need to watch the video.
